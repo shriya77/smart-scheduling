@@ -19,7 +19,7 @@ for (const [id, zoomer] of Object.entries(zoomers)) {
 
 // Set of matched zoomer IDs
 const zoomData = new Set();
-const boomer = boomers[1]; // Selecting the 3rd boomer
+const boomer = boomers[1]; // Selecting the 2nd boomer
 
 // Match based on language and requirement
 for (const lang of boomer.languages) {
