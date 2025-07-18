@@ -59,8 +59,7 @@ function checkOverlappingTimings(userTimes, tutorTimes) {
         return [true, 1];
       } else if (
         (startT >= startU && startT < endU) ||
-        (endT > startU && endT <= endU) ||
-        (startT <= startU && endT >= endU) // tutor time fully covers user time
+        (endT > startU && endT <= endU)
       ) {
         return [true, -1];
       }
