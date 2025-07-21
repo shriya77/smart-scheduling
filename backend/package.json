@@ -11,6 +11,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "firebase": "^11.10.0"
+    "@sendgrid/mail": "^8.1.5",
+    "axios": "^1.10.0",
+    "firebase": "^11.10.0",
+    "googleapis": "^153.0.0"
   }
 }
